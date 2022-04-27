@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap&subset=cyrillic-ext");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	max-width: 1440px;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.menu{
+	display: inline-block;
+	margin: 42px 120px 42px 120px;
+	max-width: 1200px;
+	vertical-align: middle;
+}
+a{
+	display: inline-block;
+	padding-right: 40px;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+.title{
+	display: inline-block;
+	padding: 0px 435px 0px 0px;
+	font-size: 27px;
+}
+.title:hover{
+	text-decoration: none;
+}
+.block_2{
+	display: inline-block;
+	max-width: 471px;
+	margin: 120px 0px 0px 120px;
+}
+.title_1{
+	font-size: 40px;
+}
+p{
+	display: inline-block;
+	padding-top: 40px;
+}
+.contact{
+	display: inline-block;
+	padding:20px 40px 20px 40px;
+	background-color: blue;
+	border-radius: 50px;
+	margin-top: 33px;
+}
+.block_3{
+	display: block;
+	float: right;
+	box-shadow: -30px 10px 50px rgba(34, 14, 114, 0.407);
+}
